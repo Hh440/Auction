@@ -1,9 +1,9 @@
 
 const NavBar =()=>{
     return(
-        <nav className="border border-black w-full h-20 bg-gradient-to-r from-[#3c3f46] to-[#8b9096]">
+        <nav className="border border-black rounded-sm w-full h-20 bg-gradient-to-r from-[#3c3f46] to-[#8b9096]">
             <div className="flex flex-row  justify-evenly items-center h-full">
-                <div className="flex flex-row mt-2 h-full">
+                <div className="flex flex-row  h-full">
                     <img src="/media/auction_logo.png" alt="Loading...." className="h-24"/>
 
                 </div>
@@ -16,6 +16,10 @@ const NavBar =()=>{
                         <li><a href="#">About</a></li>
                     </ul>
 
+                </div>
+
+                <div>
+                    <button className="border rounded-md  hover:bg-opacity-20 transition duration-300 hover:bg-slate-600 hover:text-white w-40 h-12">Wallet</button>
                 </div>
 
             </div>
