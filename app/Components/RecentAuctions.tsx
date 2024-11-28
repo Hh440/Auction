@@ -1,13 +1,14 @@
+import { ShowCards } from "./ShowCards";
+
 export function RecentAuctions(){
     return <div className="space-y-4 px-16">
-        <h1>Most Recent Auctions</h1>
-        <div className="grid grid-cols-12">
-          <div className="col-span-4 bg-red-400">
-            HEy man
-          </div>
-          <div className="col-span-8 bg-blue-400">
-            Imagescome gere
-          </div>
+        <h1 className="text-2xl">Most Recent Auctions</h1>
+        <div className="grid grid-cols-5">
+          <ShowCards/>
+          <ShowCards/>
+          <ShowCards/>
+          <ShowCards/>
+          <ShowCards/>
         </div>
       </div>
 }
