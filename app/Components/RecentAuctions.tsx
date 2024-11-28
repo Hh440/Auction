@@ -1,7 +1,7 @@
 import { ShowCards } from "./ShowCards";
 
 export function RecentAuctions(){
-    return <div className="space-y-4 px-16">
+    return <div className="space-y-4 ">
         <h1 className="text-2xl">Most Recent Auctions</h1>
         <div className="grid grid-cols-5">
           <ShowCards/>

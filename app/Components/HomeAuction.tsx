@@ -1,7 +1,7 @@
 import { ShowCards } from "./ShowCards";
 
 export function HomeAuction(){
-    return <div className="space-y-4 px-16">
+    return <div className="space-y-4 ">
     <h1 className="text-2xl">Auctions On The Way</h1>
     <div className="lg:grid lg:grid-cols-12">
       <div className=" p-4 lg:col-span-4 bg-red-400 text-xl space-y-8">
