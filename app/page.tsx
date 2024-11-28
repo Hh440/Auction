@@ -12,7 +12,7 @@ export default function Home() {
         src="https://thumbor1.astaguru.com/unsafe/1370x0/filters:format(webp)/https://cms-assets.astaguru.com/upload/10232024_095144_oct-24-je-home.jpg"
         alt=""
       />
-      <div className="px-16">
+      <div className="px-16 space-y-8">
         <HomeAuction />
 
         <RecentAuctions />
